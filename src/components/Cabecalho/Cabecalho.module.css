@@ -1,0 +1,13 @@
+.Cabecalho {
+    background-color: var(--preto);
+    color: var(--cinza);
+}
+
+.Cabecalho h1 {
+    padding: 0.25rem 0.5rem;
+    font-size: 1.3rem;
+}
+
+.Cabecalho h1 span {
+    color: var(--rosa);
+}
