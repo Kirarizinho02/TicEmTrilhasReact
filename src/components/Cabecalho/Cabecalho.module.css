@@ -1,10 +1,18 @@
 .Cabecalho {
     background-color: var(--preto);
     color: var(--cinza);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0.5rem;
+    align-items: center;
+}
+
+.Cabecalho a {
+    text-decoration: none;
+    color: var(--cinza);
 }
 
 .Cabecalho h1 {
-    padding: 0.25rem 0.5rem;
     font-size: 1.3rem;
 }
 
