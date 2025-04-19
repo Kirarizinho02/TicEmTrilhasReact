@@ -5,7 +5,7 @@ const Rodape = (props) => {
 
     return(
         <footer className={style.Rodape}>
-            <p>React Básico - {AnoAtual} - Feito por {props.nomeCriador}</p>
+            <p>React Básico - {AnoAtual} - Feito por {props.criador}</p>
         </footer>
     )
 }

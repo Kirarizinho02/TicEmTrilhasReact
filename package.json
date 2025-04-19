@@ -6,10 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "server": "json-server -w db.json -p 3333",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.8.4",
+    "json-server": "^1.0.0-beta.3",
     "lista-de-tarefas-venturus": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
